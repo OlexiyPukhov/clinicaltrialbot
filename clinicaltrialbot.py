@@ -47,9 +47,9 @@ def check_password():
 def main():    
 
     #init()
-    st.set_page_config(
-        page_title= "AI Researcher",
-    )
+    #st.set_page_config(
+    #    page_title= "AI Researcher",
+    #)
     
     custom_css = """
     <style>
