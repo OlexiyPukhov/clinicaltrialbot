@@ -111,7 +111,7 @@ def main():
         st.session_state.messages = [
                 SystemMessage(content="System: Your job is to help the user answer various tax information by first asking questions relevant to the country of the city that the user inputs. Make sure you only respond with one question at a time. You do not have the capability to generate documents, but you can help the user fill out forms that they already have. Be sure to always list examples of answers to your question.",)
             ]
-        message("Assistant: Hello! I'm your AI Researcher bot! I can look up academic journal articles and then summarize to give you an answer to your question. What is your question?", is_user=False)
+        message("Assistant: Hello! I'm your AI Assistant that can give you info on clinical trials post 2021. What would you like to know??", is_user=False)
 
     
     with st.sidebar.form(key="message_form", clear_on_submit=True):
